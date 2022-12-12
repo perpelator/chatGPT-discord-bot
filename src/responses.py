@@ -26,12 +26,9 @@ def get_config() -> dict:
 data = get_config()
 
 config = {
-    "email": data['email'],
-    "password": data['password'],
-    "cf_clearance": "Fwi7QNE1Xx8V601ZccWjOxbmNeEsNSQtG8TpJvQr0EY-1670811370-0-160",
+    "session_token": data['session_token'],
+    "cf_clearance": "mfYac5nZa9LEbBstWcvmGxoEPIRTqWFvgqGE5lozFtM-1670818572-0-160",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
 }
-
-if data['session_token']:
-    config.update(session_token = data['session_token'])
 
 chatbot = Chatbot(config, conversation_id=None)
