@@ -28,6 +28,7 @@ data = get_config()
 config = {
     "email": data['email'],
     "password": data['password'],
+    "cf_clearance": "Fwi7QNE1Xx8V601ZccWjOxbmNeEsNSQtG8TpJvQr0EY-1670811370-0-160",
 }
 
 if data['session_token']:
