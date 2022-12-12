@@ -26,7 +26,7 @@ def get_config() -> dict:
 data = get_config()
 
 config = {
-    "session_token": data['session_token'],
+    "session_token": data["session_token"],
     "cf_clearance": "9OBHf4aDoYpOmGDEZdvucZPzzG5FgL_GoK_4K7zgtNY-1670820933-0-160",
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
 }
